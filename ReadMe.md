@@ -1,6 +1,7 @@
 ## FIreFIght
 FIreFIght is a project put together for a Fault Injection demo during a [BSides London](https://bsides.london/) 2024 talk, by @barsteward.bsky.social
  * [Talk outline](https://cfp.securitybsides.org.uk/bsides-london-2024/talk/EHRQSN/)
+### Presentation
  * Presentation [PowerPoint](/Presentation/Roll%20your%20own%20vulnerabilities%20V1.0.pptx)
  * Roll your own vulnerabilities [Slides PDF](/Presentation/Roll%20your%20own%20vulnerabilities%20V1.0.pdf)
  * Roll your own vulnerabilities [Notes PDF](/Presentation/Roll%20your%20own%20vulnerabilities%20V1.0%20Notes.pdf)
@@ -18,9 +19,6 @@ I made minor modifications made to PhoenixAES and aeskeyschedule libraries to ge
 ## Code
 ### Control
 This is released under GNU GENERAL PUBLIC LICENSE Version 3
-
-## Presentation
-To be uploaded
 ## PCB Design Files
 * Gerber Please see the [pcb/Gerber](/pcb/gerber) folder 
 * [Schematic] (/pcb/FireFightmini_Schematic_V01.pdf)
