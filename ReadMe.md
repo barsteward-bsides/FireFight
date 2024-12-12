@@ -99,7 +99,7 @@ ___________________________
 ## Programming the Pi Pico 2 boards
 ### Control Pi
  * Install the uPython interpreter: https://micropython.org/resources/firmware/RPI_PICO2-20241129-v1.24.1.uf2 
- * Copy [/code/control/main.py](/code/control/main.py) to /pyboard/main.py on the Control Pico 2 (I use rshell for this)
+ * Copy [/Code/Control/main.py](/Code/Control/main.py) to /pyboard/main.py on the Control Pico 2 (I use rshell for this)
  * Copy the contents of [/phoenixAES](https://github.com/barsteward-bsides/JeanGrey/tree/master/phoenixAES/phoenixAES) -the version from  this repo - to /pyboard/phoenixAES/
  * Copy the contents of [/aeskeyschedule](https://github.com/barsteward-bsides/aeskeyschedule_micropython/tree/master/aeskeyschedule) -the version from  this repo - to /pyboard/aeskeyschedule/
  * After a reset (using the reset button on the PCB below the Control Pi), the green LED on the Control PI Pico 2 should begin flashing
@@ -112,3 +112,4 @@ ___________________________
   * Recommended Terminal settings: 120 characters wide, Local Echo, Receive: CR line ending, Transmit CR line ending
 * Type '?' for a list of commands
 * Type 'x' to execute the DFA attack demo and follow onscreen instructions
+![FIreFIght_Demo_Finished](Images/FIreFIght_Demo_Finished.png)
