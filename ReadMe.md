@@ -1,6 +1,9 @@
 ## FIreFIght
 FIreFIght is a project put together for a Fault Injection demo during a [BSides London](https://bsides.london/) 2024 talk, by @barsteward.bsky.social
  * [Talk outline](https://cfp.securitybsides.org.uk/bsides-london-2024/talk/EHRQSN/)
+ * Presentation [PowerPoint]('/Presentation/Roll%20your%20own%20vulnerabilities%20V1.0.pptx)
+ * Roll your own vulnerabilities [Slides PDF](/Presentation/Roll%20your%20own%20vulnerabilities%20V1.0.pdf)
+ * Roll your own vulnerabilities [Notes PDF](/Presentation/Roll%20your%20own%20vulnerabilities%20V1.0%20Notes.pdf)
 ## Voltage Fault Injection: Differential Fault Analysis Demo
 The demo consists of a PCB, the "FIreFIght Mini V0.1", which houses two Raspberry Pi Pico 2 boards. One board acts as the "Control" interface, setting itself up as a USB-CDC port to talk to a host PC, and the other is the "Victim". The Control board uses a MOSFET to perform voltage fault injection on the Victim, during an AES-128 encryption operation. This causes the encryption operation to generate faulty ciphertexts, which are then analysed in order to perform key recovery.
 ## Prior art and dependencies
