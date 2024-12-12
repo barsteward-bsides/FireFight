@@ -20,7 +20,7 @@ To be uploaded
 ## PCB Design Files
 * Gerber Please see the [pcb/Gerber](/pcb/gerber) folder 
 * [Schematic] (/pcb/FireFightmini_Schematic_V01.pdf)
-
+![FireFightMini.jpg](Images/FireFightMini.jpg)
 ## Ordering the FIreFIght Mini PCB
 Please see the [PCB readme](/pcb/ReadMe.md)
 
